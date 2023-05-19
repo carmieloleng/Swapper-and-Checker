@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#fb918b"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="62dp"
+        android:layout_gravity="center"
+        android:text=" GET RED-Y"
+        android:textColor="@color/white"
+        android:textSize="36dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_gravity="center"
+        android:text="Sign in to continue." />
+
+    <TextView
+        android:layout_width="297dp"
+        android:layout_height="36dp"
+        android:text="Name"
+        android:textColor="@color/white" />
+
+    <Button
+        android:layout_width="297dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F5BEAA" />
+
+    <TextView
+        android:layout_width="298dp"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textColor="@color/white" />
+
+    <Button
+        android:backgroundTint="#F5BEAA"
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#EEE3AD"
+        android:layout_marginTop="50sp"
+        android:text="Log In"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:text="or"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#EEE3AD"
+        android:text="Continue as Guest"
+        android:layout_marginTop="10sp"
+        android:textColor="@color/black"
+        app:shapeAppearanceOverlay="oval" />
+
+</LinearLayout>
